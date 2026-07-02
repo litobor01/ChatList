@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
         self._label = label
 
     def _on_click(self) -> None:
-        self._label.setText("Кнопка нажата!")
+        self._label.setText("Минимальная программа на Python")
 
 
 def main() -> None:
